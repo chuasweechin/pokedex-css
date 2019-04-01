@@ -1,0 +1,100 @@
+body {
+	width: 60%;
+	margin: auto;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container > .headerSection{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.container > .headerSection > h1 > span{
+	color: #5A5A5A;
+}
+
+.contentSection {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.imageSection {
+	width: 50%;
+	margin-right: 30px;
+	border-radius: 6px;
+	background-color: #F2F2F2;
+}
+
+.imageSection > img{
+	width: 100%;
+}
+
+.content {
+	width: 50%;
+	padding-bottom: 30px;
+}
+
+.content > .desc {
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+
+.stats {
+	display: flex;
+	border-radius: 6px;
+	flex-direction: column;
+	background-color: #289AC6;
+	padding: 0px 20px 30px 20px;
+}
+
+.stats > .rowOne {
+	display: flex;
+	flex-direction: row;
+ 	justify-content: space-between;
+}
+
+.stats > .rowTwo {
+	display: flex;
+	flex-direction: row;
+}
+
+.stat {
+	width: 50%;
+}
+
+.stat > div{
+	font-size: 20px;
+}
+
+.stat > h4 {
+	color: white;
+	font-weight: 100;
+	margin-bottom: 5px;
+}
+
+
+.container > .contentSection > .content > .typing > .type {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.container > .contentSection > .content > .typing > .type > div {
+	color: white;
+	padding: 5px 40px;
+	border-radius: 6px;
+	margin-right: 18px;
+}
+
+.container > .contentSection > .content > .typing > .type > .grass {
+	background-color: #9ACB59;
+}
+
+.container > .contentSection > .content > .typing > .type > .poison {
+	background-color: #B97FC7;
+}
